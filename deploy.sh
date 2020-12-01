@@ -1,9 +1,7 @@
-#! /usr/bin/env bash
+#! /bin/sh
 
 # update system
 apt-get update
-apt-get -y upgrade
-apt-get -y dist-upgrade
 
 # skips interactive dialog for iptables-persistent installer
 export DEBIAN_FRONTEND=noninteractive

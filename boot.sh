@@ -5,7 +5,7 @@
 #=========== 
 
 # remove if there were UFW rules
-if [ -n "$(which ufw)" ]; then ufw disable fi
+if [ -n "$(which ufw)" ]; then ufw disable; fi
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
 iptables -F
