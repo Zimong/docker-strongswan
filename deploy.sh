@@ -5,7 +5,7 @@ apt-get update
 
 # skips interactive dialog for iptables-persistent installer
 export DEBIAN_FRONTEND=noninteractive
-apt-get -y install strongswan strongswan-plugin-eap-mschapv2 moreutils
+apt-get -y install strongswan strongswan-plugin-eap-mschapv2 moreutils kmod
 
 #=========== 
 # STRONG SWAN CONFIG
